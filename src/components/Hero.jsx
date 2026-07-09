@@ -18,10 +18,15 @@ export default function Hero() {
   animate={{ opacity: 1 }}
   transition={{ duration: 1 }}
 >
+<h1 className="text-6xl md:text-8xl font-extrabold text-center leading-tight">
+  <span className="bg-gradient-to-r from-pink-400 via-rose-400 to-purple-400 bg-clip-text text-transparent">
+    TEJASWI RAJ DIKSHIT
+  </span>
 
-     <motion.h1 className="text-red-500 text-8xl font-bold">
-  Tailwind Test
-</motion.h1>
+  <br />
+
+  <span className="text-white">❤️</span>
+</h1>
 
       <motion.p
   initial={{ y: 40, opacity: 0 }}
