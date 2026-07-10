@@ -7,6 +7,7 @@ import Promises from "./components/Promises";
 import Ending from "./components/Ending";
 import Footer from "./components/Footer";
 import MusicPlayer from "./components/MusicPlayer";
+import Forgive from "./components/Forgive";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Gallery />
       <Timeline />
       <Promises />
+      <Forgive />
       <Ending />
       <Footer />
     </PasswordGate>
